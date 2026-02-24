@@ -1,21 +1,11 @@
-# Core
-fastapi==0.111.1
-uvicorn==0.25.0
+streamlit>=1.31.0
+streamlit-ketcher>=0.0.1
 
-# Transformers / Model
-torch==2.1.0
-transformers==4.44.0
+torch>=2.2.0
+transformers>=4.40.0
+groq>=0.9.0
+httpx>=0.27.0
 
-# Groq SDK
-groq==0.3.2
-
-# RDKit for molecule handling and visualization
-rdkit-pypi==2023.9.1
-
-# Streamlit frontend
-streamlit==1.28.0
-streamlit-ketcher==0.0.6
-
-# Image handling
-Pillow==10.0.0
-requests==2.32.0
+rdkit>=2023.9.1
+Pillow>=10.2.0
+requests>=2.31.0
